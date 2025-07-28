@@ -1,2 +1,18 @@
-# Arduino-for-Unauthorized-VPN-and-Data-Tunneling-Access-Prevention-System-for-Fiber-and-ADSL
-Unauthorized VPN and data tunneling attacks are growing threats to both consumer-grade and enterprise-level internet connections. This guide introduces an end-to-end solution built using React (frontend), Python (backend), Raspberry Pi (controller), and Arduino (physical layer monitoring) to secure Fiber and ADSL lines.
+# Unauthorized VPN & Data Tunneling Prevention System
+
+This project provides a real-time VPN and tunneling detection system with hardware-level monitoring using Raspberry Pi, Arduino, React, and Python.
+
+## 📁 Project Structure
+- `backend/`: Flask server with VPN detection logic and logging
+- `vpn-dashboard/`: React frontend to visualize alerts
+- `arduino/`: Arduino sketch for monitoring voltage signals
+
+## 🚀 Features
+- Real-time detection of VPN traffic using Scapy
+- Serial communication with Arduino for physical layer monitoring
+- Frontend dashboard built with React
+- Alert logging and viewing
+- Future enhancements include Twilio alerts, MQTT, and ML prediction
+
+## 🛠 Installation
+See the guide for step-by-step installation instructions.
