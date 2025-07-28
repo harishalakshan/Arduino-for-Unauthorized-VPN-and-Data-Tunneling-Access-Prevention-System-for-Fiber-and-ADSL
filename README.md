@@ -1,0 +1,2 @@
+# Arduino-for-Unauthorized-VPN-and-Data-Tunneling-Access-Prevention-System-for-Fiber-and-ADSL
+Unauthorized VPN and data tunneling attacks are growing threats to both consumer-grade and enterprise-level internet connections. This guide introduces an end-to-end solution built using React (frontend), Python (backend), Raspberry Pi (controller), and Arduino (physical layer monitoring) to secure Fiber and ADSL lines.
